@@ -4,6 +4,11 @@ Deep learning issue solving is a simple readme to track issue and solve for deep
 
 **Feel free to send pull request**
 
+## Installation Problem and Solving
+* Pytorch 1.1.0 install for cuda9
+
+```$conda install pytorch torchvision cudatoolkit=9.0 -c pytorch```
+
 ## Tensorflow & Keras Issue Solving
 
 
