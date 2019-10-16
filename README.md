@@ -1,5 +1,8 @@
 # Deep Learning Issue Solving
 
+Deep learning issue solving is a simple readme to track issue and solve for deep code.
+
+**Feel free to send pull request**
 
 ## Tensorflow & Keras Issue Solving
 
