@@ -9,6 +9,10 @@ Deep learning issue solving is a simple readme to track issue and solve for deep
 
 ```$conda install pytorch torchvision cudatoolkit=9.0 -c pytorch```
 
+* Rouge Install Problem
+
+Follow this [link](https://sagorbrur.github.io/install_rouge.html) to installation guide. 
+
 ## Tensorflow & Keras Issue Solving
 
 
