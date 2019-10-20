@@ -29,4 +29,10 @@ checkpoint = torch.load('saved_model.pt', map_location={'cuda:0': 'cpu'})
 
 ```
 
+# **Miscellaneous**
+
+## python2 vs python3
+* Issue: Error: " 'dict' object has no attribute 'iteritems' " 
+
+`In python3 , use dict.items() instead of dict.iteritems()`
 
