@@ -36,3 +36,18 @@ checkpoint = torch.load('saved_model.pt', map_location={'cuda:0': 'cpu'})
 
 `In python3 , use dict.items() instead of dict.iteritems()`
 
+## list index out of range
+
+```py
+a = [0, 1, 2, 3]
+b = []
+for i in range(len(a)):
+   b.append(a[i + 1] - a[i])
+print(b)
+
+## Error: list index out of range
+
+```
+change `range(len(a))` to `range(len(a)-1)` it will eliminate that error
+
+
