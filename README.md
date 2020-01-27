@@ -28,6 +28,16 @@ _device = torch.device("cpu")
 checkpoint = torch.load('saved_model.pt', map_location={'cuda:0': 'cpu'})
 
 ```
+loading state_dict:
+
+```py
+import torch
+model = YourModel()
+state_dict = torch.load(model_path, map_location={"cuda:0" : "cpu"})
+model.load_state_dict(state_dict)
+
+```
+
 
 # **Miscellaneous**
 
